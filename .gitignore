@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+
+# Large binary blobs, cookies, JS dumps, extracted content
+dump/
+epub/
+out/
+out_pdf/
+wp_html/
+wp_pdf/
+paginated/
+decoded/
+pages_html/
+tmp_pdf/
+
+# Generated PDFs
+*.pdf
+
+# Generated HTML
+*.html
+
+# Screenshots and test artifacts
+*.png
+*.jpg
+*.jpeg
+test_*.js
+debug*.js
+verify.js
+check_*.js
+test_*.html
+test_*.pdf
+format.js
+
+# Playwright cache
+/root/.cache/ms-playwright/
+~/.cache/ms-playwright/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+Dockerfile
+docker-compose.yml
+nginx.conf
+.dockerignore
+
+# Misc
+console.log
+cookies.json

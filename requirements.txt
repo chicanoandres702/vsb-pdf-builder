@@ -1,0 +1,4 @@
+playwright
+weasyprint
+pikepdf
+pillow
